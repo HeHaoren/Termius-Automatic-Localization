@@ -1,0 +1,19 @@
+# 汉化包（第三方产物，运行时从 ArcSurge 下载）
+app-windows-localize.asar
+app-windows-localize.asar.version
+
+# 备份（含 Termius 原始二进制，勿提交）
+backup/
+
+# 依赖
+node_modules/
+
+# 运行时状态（含本地路径、用户名等个人信息）
+state.json
+update-log.txt
+task.xml
+disable-fuses.js
+
+# 工具/会话产物
+.claude/
+.rivet/
